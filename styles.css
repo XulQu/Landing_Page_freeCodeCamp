@@ -4,6 +4,47 @@ body{
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+a:link {
+    color:white;
+    text-decoration: none;
+}
+
+ a:visited {
+    color:white;
+    text-decoration: none;
+}
+
+ a:hover {
+    color:cyan;
+    text-decoration: none;
+    scale:1.10;
+}
+
+ a:active {
+    color:white;
+    text-decoration: none;
+}
+
+#submit {
+    margin-top:10px;
+        padding:10px 20px;
+        font-weight:bold;
+        background-color: midnightblue;
+        color:white;
+        border-style: none;
+        width:195px;
+        text-decoration: none;
+}
 
 
 @media screen and (min-width:320px) {
@@ -33,7 +74,7 @@ body{
         padding:0;
     }
 
-    #logo-container {
+    #header-img-2 {
         display:flex;
         flex-direction:column;
         justify-content: flex-start;
@@ -65,7 +106,7 @@ body{
         color:midnightblue;
     }
 
-    #input-container {
+    #form {
         display:flex;
         flex-direction: column;
         justify-content: center;
@@ -73,12 +114,12 @@ body{
         margin-top:20px;
     }
 
-    #input-container input{
+    #form input{
         padding:10px 20px;
         border: 2px solid midnightblue;
     }
 
-    #input-container button{
+    #submit input{
         margin-top:10px;
         padding:10px 20px;
         font-weight:bold;
@@ -86,6 +127,7 @@ body{
         color:white;
         border-style: none;
         width:195px;
+        text-decoration: none;
     }
 
     /* END INPUT AREA */
@@ -241,7 +283,7 @@ body{
         margin:0;
     }
 
-    .main-nav-container {
+    #nav-bar {
         display:flex;
         flex-wrap:wrap;
         flex-direction: row;
@@ -271,7 +313,7 @@ body{
         padding:0;
     }
 
-    #logo-container {
+    #header-img-2 {
         display:flex;
         flex-direction:column;
         justify-content: flex-start;
@@ -290,6 +332,8 @@ body{
         font-size:15px;
         margin-right:100px;
     }
+
+     
 
     /* END NAVBAR */
 
@@ -312,7 +356,7 @@ body{
         color:midnightblue;
     }
 
-    #input-container {
+    #form {
         display:flex;
         flex-direction: column;
         justify-content: center;
@@ -320,12 +364,12 @@ body{
         margin-top:20px;
     }
 
-    #input-container input{
+    #form input{
         padding:10px 20px;
         border: 2px solid midnightblue;
     }
 
-    #input-container button{
+    #submit input{
         margin-top:10px;
         padding:10px 20px;
         font-weight:bold;
@@ -333,6 +377,7 @@ body{
         color:white;
         border-style: none;
         width:195px;
+        text-decoration: none;
     }
 
     /* END INPUT AREA */
@@ -518,7 +563,7 @@ body{
         margin:0;
     }
 
-    .main-nav-container {
+    #nav-bar {
         display:flex;
         flex-wrap:wrap;
         flex-direction: row;
@@ -548,7 +593,7 @@ body{
         padding:0;
     }
 
-    #logo-container {
+    #header-img-2 {
         display:flex;
         flex-direction:column;
         justify-content: flex-start;
@@ -589,7 +634,7 @@ body{
         color:midnightblue;
     }
 
-    #input-container {
+    #form {
         display:flex;
         flex-direction: column;
         justify-content: center;
@@ -597,12 +642,12 @@ body{
         margin-top:20px;
     }
 
-    #input-container input{
+    #form input{
         padding:10px 20px;
         border: 2px solid midnightblue;
     }
 
-    #input-container button{
+    #submit input{
         margin-top:10px;
         padding:10px 20px;
         font-weight:bold;
@@ -610,6 +655,7 @@ body{
         color:white;
         border-style: none;
         width:195px;
+        text-decoration: none;
     }
 
     /* END INPUT AREA */
@@ -787,7 +833,7 @@ body{
         margin:0;
     }
 
-    .main-nav-container {
+    #nav-bar {
         display:flex;
         flex-wrap:wrap;
         flex-direction: row;
@@ -817,7 +863,7 @@ body{
         padding:0;
     }
 
-    #logo-container {
+    #header-img-2 {
         display:flex;
         flex-direction:column;
         justify-content: flex-start;
@@ -858,7 +904,7 @@ body{
         color:midnightblue;
     }
 
-    #input-container {
+    #form {
         display:flex;
         flex-direction: column;
         justify-content: center;
@@ -866,12 +912,12 @@ body{
         margin-top:20px;
     }
 
-    #input-container input{
+    #form input{
         padding:10px 20px;
         border: 2px solid midnightblue;
     }
 
-    #input-container button{
+    #submit input{
         margin-top:10px;
         padding:10px 20px;
         font-weight:bold;
@@ -879,6 +925,7 @@ body{
         color:white;
         border-style: none;
         width:195px;
+        text-decoration: none;
     }
 
     /* END INPUT AREA */

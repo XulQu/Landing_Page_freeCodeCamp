@@ -9,21 +9,23 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="main-nav-container">
+    <header id="header" class="sticky">
+    <nav id="nav-bar">
         <div id="nav-bar-container">
-            <img src="https://cdn-icons-png.flaticon.com/512/9214/9214331.png" alt="logo" class="nav-img">
-            <div id="logo-container">
+            <img src="https://cdn-icons-png.flaticon.com/512/9214/9214331.png" alt="logo" class="nav-img" id="header-img">
+            <div id="header-img-2" >
             <h2>TECHDISE</h2>
             <p id="logo-sub-text">One Stop Graphics Cards</p>
             </div>
         </div>
 
         <div id="nav-items">
-            <a>Features</a>
-            <a>How it works</a>
-            <a>Pricing</a>
+            <a href="#link_to_here_1" id="nav-link" class="nav-link">Features</a>
+            <a href="#link_to_here_2" id="nav-link" class="nav-link">How it works</a>
+            <a href="#link_to_here_3" id="nav-link" class="nav-link">Pricing</a>
         </div>
     </nav>
+</header>   
 
     <main class="main-container">
         <div id="landing-section-container">
@@ -31,15 +33,16 @@
             </h1>
         </div>
 
-        <div id="input-container">
-            <input placeholder="Enter your email address">
-            <button>GET STARTED</button>
-        </div>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input id="email"  type="email" placeholder="Enter your email address" name="email" required>
+            <input  type="submit" id="submit" required></input>
+        </form>
 
         <section>
             <div id="icon-area-container">
             <img src="https://cdn-icons-png.flaticon.com/512/478/478855.png" alt"lightning icon" id="icon-img">
                 <div class="icon-text-container">
+                    <a id="link_to_here_1"></a>
                 <h2 class="icon-header">LIGHTNING FAST TECH</h2>
                 <p class="icon-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu lorem cursus, finibus mi ut, rhoncus est. Sed suscipit non sapien et volutpat. Suspendisse facilisis, erat quis condimentum fringilla, magna ex faucibus augue, eu maximus nulla lorem sed ligula.</p>
                 </div>
@@ -64,19 +67,20 @@
                     <div class="strip-container">
 
                     <div class="text-video-side">
-
+                        <a id="link_to_here_2"></a>
                         <h2>OUR LATEST SELECTION</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu lorem cursus, finibus mi ut, rhoncus est. Sed suscipit non sapien et volutpat. Suspendisse facilisis, erat quis condimentum fringilla, magna ex faucibus augue, eu maximus nulla lorem sed ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu lorem cursus, finibus mi ut, rhoncus est. Sed suscipit non sapien et volutpat. Suspendisse facilisis, erat quis condimentum fringilla, magna ex faucibus augue, eu maximus nulla lorem sed ligula.</p>
 
                     </div>
                     
                     <div class="video-container">
-                        <iframe  width="480px" height="310px" src="https://www.youtube.com/embed/J5q3AlBfg2w" title="GeForce RTX 4090 Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe  width="480px" height="310px" src="https://www.youtube.com/embed/J5q3AlBfg2w" title="GeForce RTX 4090 Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="video"></iframe>
                     </div>
 
                     </div>
-
+                    <a id="link_to_here_3"></a>
                     <div class="card-container">
+                        
                         <div id="card-section">
                           <h4>RTX 4050</h4>
                           <h2>$600</h2>
